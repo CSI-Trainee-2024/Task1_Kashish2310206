@@ -324,18 +324,13 @@ h1 {
     object-fit: cover; 
 }
 
-.chefimages {
+.chefitems img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
     padding: 0 20px;
     margin-right: 30px;
-}
-
-.chefitems img {
-    display: flex;
-    flex-wrap: wrap;
     width: 250px;
     height: 350px;
     border-radius: 10px;
