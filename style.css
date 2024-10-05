@@ -80,18 +80,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .section1 .pasta img {
     width: 500px;
     height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
+    /* border-radius: 10px; */
+    /* margin-right: 100px; */
 }
 
 .section1 .text {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .section1 .text h2 {
