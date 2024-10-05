@@ -205,6 +205,20 @@ nav {
     color: #e47029;
 }
 
+.contact{
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 20px;
+}
+
 #footer {
     background-color: #e3e3e390;
     color: black;
