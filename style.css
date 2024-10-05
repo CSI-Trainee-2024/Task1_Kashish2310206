@@ -75,3 +75,32 @@ nav {
     font-size: 16px;
 }
 
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.section1 .pasta img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.section1 .text {
+    max-width: 600px;
+}
+
+.section1 .text h2 {
+    font-size: 32px;
+    color: #e47029;
+    margin-bottom: 20px;
+}
+
+.section1 .text h4 {
+    font-size: 18px;
+    line-height: 2;
+}
