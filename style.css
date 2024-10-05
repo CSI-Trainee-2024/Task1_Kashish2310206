@@ -94,7 +94,10 @@ nav {
     line-height: 2;
 }
 
-.search-btn {
+.banner a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
     display: flex;
     padding: 10px 20px;
     margin: 10px;
@@ -132,6 +135,22 @@ nav {
 .section1 .text h4 {
     font-size: 18px;
     line-height: 2;
+}
+
+.section1 .text a {
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    display: flex;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #e47029;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    
 }
 
 .special {
