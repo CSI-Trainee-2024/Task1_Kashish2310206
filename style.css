@@ -46,6 +46,32 @@ nav {
     padding-left: 50px;
 }
 
+.banner1 {
+    margin-top: 0.1px;
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.banner1 h4{
+    /* text-align: center; */
+    text-shadow: 2px 2px 4px rgba(37, 37, 37); 
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #e47029;
+}
+
+.banner1 p{
+    font-size: 30px;
+}
+
 .banner h2 {
     text-shadow: 2px 2px 4px rgba(37, 37, 37); 
     font-size: 40px;
