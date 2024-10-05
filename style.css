@@ -104,3 +104,34 @@ nav {
     font-size: 18px;
     line-height: 2;
 }
+
+.special {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.special h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #e47029; 
+}
+
+.special .image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 15px;
+    padding: 0 40px;
+}
+
+.special .image img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.special .image img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+}
