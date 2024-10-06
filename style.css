@@ -237,7 +237,7 @@ nav {
     color: #e47029;
 }
 
-.event-list {
+.eventlist {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
