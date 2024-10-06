@@ -400,7 +400,7 @@ h1 {
 
 .reservationform {
     max-width: 500px;
-    margin-left: 430px;
+    margin-left: 0 auto;
 }
 
 .form {
