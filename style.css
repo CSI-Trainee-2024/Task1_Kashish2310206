@@ -402,7 +402,7 @@ h1 {
 
 .reservationform {
     max-width: 500px;
-    margin-left: 0 auto;
+    margin: 0 auto;
 }
 
 .form {
@@ -474,4 +474,100 @@ h1 {
     color: green;
     font-size: 16px;
     font-weight: bold;
+}  
+
+/* For Tablets and Smaller Laptops */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu a {
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .section1 .pasta img {
+        width: 100%;
+        height: auto;
+    }
+
+    .special .image {
+        justify-content: center;
+    }
+
+    .events .eventlist {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .interiorimage {
+        height: 400px;
+    }
+    
+    .chefimages, .customerimages {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner, .banner1, .banner2 {
+        height: 300px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .banner h2, .banner1 h4, .banner2 h1 {
+        font-size: 24px;
+    }
+
+    .section1 {
+        padding: 10px;
+    }
+
+    .section1 .text h2 {
+        font-size: 24px;
+    }
+
+    .special .image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .special .item {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .eventlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .availableseats .seats {
+        flex-direction: column;
+    }
+
+    .seat {
+        width: 100%;
+        max-width: 300px;
+    }
 }
