@@ -557,11 +557,7 @@ h1 {
 
     .banner a{
         font-size: 10px;
-        display: flex;
         padding: 10px 10px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
     }
 
     .banner1 h4, .banner2 h1 {
