@@ -529,13 +529,44 @@ h1 {
         margin: 10px 0;
     }
 
-    .banner, .banner1, .banner2 {
+    .banner{
+        height: 300px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .banner1, .banner2 {
         height: 300px;
         padding-left: 10px;
         text-align: center;
     }
 
-    .banner h2, .banner1 h4, .banner2 h1 {
+    .banner h2 {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    
+    .banner h4 {
+        font-size: 15px;
+    }
+    
+    .banner h5 {
+        font-size: 10px;
+        line-height: 1.5;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .banner a{
+        font-size: 10px;
+        display: flex;
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .banner1 h4, .banner2 h1 {
         font-size: 24px;
     }
 
