@@ -17,5 +17,82 @@
             <a href="gallery.html">Gallery</a>
         </div>
     </nav>
+    <div class="banner2" style="background-image: url('table.jpg');">
+        <h1>Book Your Table Today!</h1>
+    </div>
+
+    <section class="reservationsection">
+        <h1>Make a Reservation</h1>
+        <form class="reservationform">
+            <div class="form">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form">
+                <label for="guests">Number of Guests</label>
+                <input type="number" name="guests" required>
+            </div>
+
+            <div class="form">
+                <label for="date">Reservation Date</label>
+                <input type="date" name="date" required>
+            </div>
+
+            <div class="form">
+                <label for="time">Reservation Time</label>
+                <input type="time" name="time" required>
+            </div>
+
+            <div class="form">
+                <label for="seats">Available Seats</label>
+                <select id="seats" name="seats">
+                    <option value="Indoor">Indoor Seating</option>
+                    <option value="Outdoor">Outdoor Seating</option>
+                    <option value="VIP">VIP Seating</option>
+                </select>
+            </div>
+
+            <div class="form">
+                <button type="submit" class="submit-btn">Book a Table</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="availableseats">
+        <h1>Available Seats</h1>
+        <div class="seats">
+            <div class="seat" id="table1">
+                <h1>Table 1 - Indoor</h1>
+                <p>Status: Available</p>
+            </div>
+            <div class="seat" id="table2">
+                <h1>Table 2 - Outdoor</h1>
+                <p>Status: Reserved</p>
+            </div>
+            <div class="seat" id="table3">
+                <h1>Table 3 - VIP</h1>
+                <p>Status: Available</p>
+            </div>
+            <div class="seat" id="table4">
+                <h1>Table 4 - VVIP</h1>
+                <p>Status: Available</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h4>copyright © 2024 Spice</h4>
+        <p>All rights reserved </p>
+    </section>
 </body>
 </html>
