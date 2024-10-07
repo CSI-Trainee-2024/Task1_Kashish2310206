@@ -215,7 +215,7 @@ nav {
 }
 
 .special .item h3 {
-    margin: 10px 0 5px;
+   margin-left: 50px;
     font-size: 20px;
     color: #333;
     font-weight: bold;
@@ -552,6 +552,7 @@ h1 {
     .banner h2 {
         font-size: 20px;
         margin-right: 20px;
+        width: 200px;
     }
     
     .banner h4 {
@@ -562,7 +563,7 @@ h1 {
         font-size: 10px;
         line-height: 1.5;
         text-align: left;
-        
+        width: 250px;
     }
     .banner .btn2{
         width: 70px;
