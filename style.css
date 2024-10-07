@@ -225,6 +225,11 @@ nav {
     font-size: 18px;
     color: #e47029;
     font-weight: bold;
+    margin-left: 40px;
+}
+
+.special .item h4 {
+    margin-left: 40px;
 }
 
 .events {
